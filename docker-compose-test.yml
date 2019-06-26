@@ -1,0 +1,11 @@
+version: '3'
+services:
+    nest_app:
+        build: .
+        container_name: "nest_app"
+        volumes:
+            - .:/app
+        ports:
+            - "5000:5000"
+        command:
+          pytest
