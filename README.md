@@ -17,10 +17,7 @@ The program should support an arbitrary number of arguments, that is arbitrary l
 2. Create a REST service from the first task. Make sure your methods support basic auth. Input json should be received via POST request, nesting parameters should be specified as request parameters.
 
 
-# Json grouper
-Group your json list of dictionaries on values defined by arbitraty number of keys, 
-ignoring unknown keys.
-
+# Solution
 
 ## CLI usage
 ```bash
